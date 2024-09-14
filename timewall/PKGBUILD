@@ -2,7 +2,7 @@
 
 pkgname=timewall
 pkgver=1.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Apple dynamic HEIF wallpapers on GNU/Linux'
 arch=('x86_64')
 url='https://github.com/bcyran/timewall'
@@ -20,7 +20,7 @@ build() {
 
 package() {
   cd $pkgname-$pkgver
-  install -m755 -Dt "${pkgdir}/usr/bin/$pkgname" target/release/$pkgname
+  install -m755 -Dt "${pkgdir}/usr/bin" target/release/$pkgname
   install -m644 -Dt "${pkgdir}/usr/lib/systemd/user" $pkgname.service
   install -m644 -Dt "${pkgdir}/usr/share/zsh/site-functions" _$pkgname
   install -m644 -Dt "${pkgdir}/usr/share/bash-completion/completions" $pkgname.bash
