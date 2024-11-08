@@ -1,8 +1,8 @@
 # Maintainer: Amit Prayaga <amitprayaga@gmail.com>
 
 pkgname=timewall
-pkgver=1.1.0
-pkgrel=2
+pkgver=1.2.0
+pkgrel=1
 pkgdesc='Apple dynamic HEIF wallpapers on GNU/Linux'
 arch=('x86_64')
 url='https://github.com/bcyran/timewall'
