@@ -1,7 +1,7 @@
 # Maintainer: Amit Prayaga <amitprayaga@gmail.com>
 
 pkgname=nexusmods-app-bin
-pkgver=0.10.2
+pkgver=0.14.3
 pkgrel=1
 pkgdesc='A mod installer, creator and manager for all your popular games'
 arch=('x86_64')
