@@ -1,7 +1,7 @@
 # Maintainer: Amit Prayaga <amitprayaga@gmail.com>
 
 pkgname=timewall
-pkgver=2.0.1
+pkgver=2.0.2
 pkgrel=1
 pkgdesc='Apple dynamic HEIF wallpapers on GNU/Linux'
 arch=('x86_64')
