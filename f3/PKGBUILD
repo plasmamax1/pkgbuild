@@ -1,0 +1,22 @@
+# Maintainer: Amit Prayaga <amitprayaga@gmail.com>
+
+pkgname=f3
+pkgver=9.0
+_pkgver=v9.0
+pkgrel=1
+pkgdesc="f3 is a simple tool that tests flash cards capacity and performance to see if they live up to claimed specifications"
+arch=('x86_64')
+url="https://github.com/AltraMayor/f3"
+license=('GPL')
+source=("https://github.com/AltraMayor/f3/archive/refs/tags/$_pkgver.tar.gz")
+md5sums=('SKIP')
+
+build() {
+  cd "$pkgname-$pkgver"
+  make
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  make DESTDIR="$pkgdir/" PREFIX="/usr" install
+}
