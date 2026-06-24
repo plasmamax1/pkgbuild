@@ -1,8 +1,8 @@
 # Maintainer: Amit Prayaga <amitprayaga@gmail.com>
 
 pkgname=f3
-pkgver=9.0
-_pkgver=v9.0
+pkgver=10.0
+_pkgver=v10.0
 pkgrel=1
 pkgdesc="f3 is a simple tool that tests flash cards capacity and performance to see if they live up to claimed specifications"
 arch=('x86_64')
